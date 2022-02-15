@@ -6,7 +6,7 @@ import Calculator as CalculatorClass
 class Test(unittest.TestCase):
     calculator = CalculatorClass.Calculator() # instantiate the Calculator Class
     def test_0_add(self):
-        result = self.calculator.add(4,6)
+        result = self.calculator.add(4,8)
         self.assertEqual(result,1220)
 if __name__ == '__main__':
     # begin the unittest.main()
